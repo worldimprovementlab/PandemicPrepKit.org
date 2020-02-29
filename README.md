@@ -1,28 +1,27 @@
 # PandemicPrepKit.org
 
-## Installation for local Development
+## Installation
 
-Based off the Lektor [quickstart](https://www.getlektor.com/docs/quickstart/):
-
-1. Create an environment. Ways to do it:
+1. Create an environment using the tool of choice. Here's some examples:
 
 ``` bash
-# Python3 venv
-python3 -m venv PandemicPrepKit.org
+# virtualenv
+python3 -m venv PandemicPrepKit
 
 # Conda
-conda create -n PandemicPrepKit.org python=3.7
-conda activate PandemicPrepKit.org
+conda create -n PandemicPrepKit python=3.6
+conda activate PandemicPrepKit
 ```
 
-2. Install Lektor
+2. Install lektor
 
 ``` bash
-pip install lektor
+pip install -r requirements.txt
 ```
 
-3. Run the project
+3. Run the server
 
 ``` bash
 lektor server
 ```
+
